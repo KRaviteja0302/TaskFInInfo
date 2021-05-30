@@ -24,7 +24,7 @@
         android:background="@drawable/edittext_bg"
         android:hint="Email"
         android:paddingLeft="5dp"
-        android:inputType="textEmailAddress"/>
+        />
 
     <TextView
         android:id="@+id/txtnumber"

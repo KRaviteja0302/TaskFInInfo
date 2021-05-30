@@ -44,7 +44,7 @@ TaskAdapter taskAdapter;
 
         recyclerView.setAdapter(taskAdapter);
         submit.setOnClickListener(v->{
-            if (email.getText().toString().trim().matches(emailPattern)&&email.length()>0)
+            if (email.getText().length()==0 && email.getText().toString().trim().matches(emailPattern))
                 email.setError("!Required Email Pattern");
             else if(number.getText().length()==0)
                 number.setError("!Required");
